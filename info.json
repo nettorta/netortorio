@@ -1,0 +1,8 @@
+{
+    "name": "netortorio",
+    "version": "0.0.1",
+    "title": "Hardcore experience Factorio mod",
+    "author": "nettorta",
+    "dependencies": ["base >= 0.18"],
+    "factorio_version": "0.18"
+  }
