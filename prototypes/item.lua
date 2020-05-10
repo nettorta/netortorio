@@ -34,7 +34,9 @@ fireArmor.resistances = {
 local recipe = table.deepcopy(data.raw.recipe["heavy-armor"])
 recipe.enabled = true
 recipe.name = "fire-armor"
-recipe.ingredients = {{"copper-plate",200},{"steel-plate",50}}
+recipe.ingredients = {{"wood",1}}
 recipe.result = "fire-armor"
 
-data:extend{fireArmor,recipe}
+data:extend{
+    fireArmor, recipe
+}
